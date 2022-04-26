@@ -27,20 +27,26 @@
 #define MOSFET_GATE  12
 #define LED_ANIMATIONS_DURATION 300000 // Duration of LED animations (Milliseconds)
 #define SCREEN_ROTATION 0
+#define NUMBER_FILES 4
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, DATA_PIN, NEO_GRB + NEO_KHZ800);
 uint16_t brightness=LOW_BRIGHTNESS;
 long start_time=0;
 int code_run_counter=0;
 int current_citation=0;
+int current_citation_1=0, current_citation_2=0, current_citation_3=0, current_citation_4=0;
 int number_of_citations=0;
+int number_of_citations_1=0, number_of_citations_2=0, number_of_citations_3=0, number_of_citations_4=0;
 int target_citation=0;
 int code_run_counter_bkp=0;
-int current_citation_bkp=0;
-int number_of_citations_bkp=0;
+//int current_citation_bkp=0;
+int current_citation_1_bkp=0, current_citation_2_bkp=0, current_citation_3_bkp=0, current_citation_4_bkp=0;
+//int number_of_citations_bkp=0;
+int number_of_citations_1_bkp=0,number_of_citations_2_bkp=0, number_of_citations_3_bkp=0, number_of_citations_4_bkp=0;
+int random_pickup=0;
 int vbat_counter=0;
 bool SetupMode=false;
-bool citations_file_exists=false;
+bool citations_file_1_exists=false,citations_file_2_exists=false,citations_file_3_exists=false,citations_file_4_exists=false;
 bool citation_fits=false;
 bool first_time=true;
 String wifi_status = "Disconnected";
@@ -195,9 +201,8 @@ document.addEventListener('DOMContentLoaded', SetDisplayOrderFunction, false);
 </html>
 )=====";
 
-char current_filename [] = "/data/citations.txt";
-
-String filename;
+String filename="citations.txt";
+String filename_1="citations.txt", filename_2="blaques.txt", filename_3="enigmes.txt", filename_4="mots_d_amour.txt";
 ESP8266WebServer server(80);
 //holds the current upload
 File UploadFile;
@@ -254,8 +259,12 @@ String formatMessage(String message){
 
 // Read log.json file used to store log counters etc. If not found or corrupted then initialize counters and settings.
 void read_log_data(){
-  const char * _code_run_counter = "", *_current_citation = "", *_number_of_citations = "", *_method4next = "";
-  const char * _code_run_counter_bkp = "", *_current_citation_bkp = "", *_number_of_citations_bkp = "", *_method4next_bkp = "";
+  const char * _code_run_counter = "", *_method4next = "";
+  const char *_current_citation_1 = "",*_current_citation_2 = "",*_current_citation_3 = "",*_current_citation_4 = "";
+  const char *_number_of_citations_1 = "",*_number_of_citations_2 = "",*_number_of_citations_3 = "",*_number_of_citations_4 = "";
+  const char * _code_run_counter_bkp = "", *_method4next_bkp = "";
+  const char *_current_citation_1_bkp = "",*_current_citation_2_bkp = "",*_current_citation_3_bkp = "",*_current_citation_4_bkp = "";
+  const char *_number_of_citations_1_bkp = "",*_number_of_citations_2_bkp = "",*_number_of_citations_3_bkp = "",*_number_of_citations_4_bkp = "";
 
   // Read file #1
   if(SPIFFS.exists("/log.json")){
@@ -273,14 +282,26 @@ void read_log_data(){
       {
         //Serial.println("Read values from json");
         _code_run_counter = logjObject["code_run_counter"];
-        _current_citation = logjObject["current_citation"];
-        _number_of_citations = logjObject["number_of_citations"];
+        _current_citation_1 = logjObject["current_citation_1"];
+        _current_citation_2 = logjObject["current_citation_2"];
+        _current_citation_3 = logjObject["current_citation_3"];
+        _current_citation_4 = logjObject["current_citation_4"];
+        _number_of_citations_1 = logjObject["number_of_citations_1"];
+        _number_of_citations_2 = logjObject["number_of_citations_2"];
+        _number_of_citations_3 = logjObject["number_of_citations_3"];
+        _number_of_citations_4 = logjObject["number_of_citations_4"];
         _method4next=logjObject["method4next"];
-        if(_code_run_counter==NULL || _current_citation==NULL || _number_of_citations==NULL|| _method4next==NULL){
+        if(_code_run_counter==NULL || _current_citation_1==NULL || _current_citation_2==NULL || _current_citation_3==NULL || _current_citation_4==NULL || _number_of_citations_1==NULL || _number_of_citations_2==NULL ||_number_of_citations_3==NULL ||_number_of_citations_4==NULL || _method4next==NULL){
           Serial.println("Error retrieving stored counters - Will reset.");
           _code_run_counter = "1";
-          _current_citation = "1";
-          _number_of_citations="1";
+          _current_citation_1 = "1";
+          _current_citation_2 = "1";
+          _current_citation_3 = "1";
+          _current_citation_4 = "1";
+          _number_of_citations_1="1";
+          _number_of_citations_2="1";
+          _number_of_citations_3="1";
+          _number_of_citations_4="1";
           _method4next="Aleatoire";
         }
       }
@@ -289,8 +310,14 @@ void read_log_data(){
   else {
     Serial.println("File /log.json not found - will initialize");
     _code_run_counter = "1";
-    _current_citation = "1";
-    _number_of_citations="1";
+    _current_citation_1 = "1";
+    _current_citation_2 = "1";
+    _current_citation_3 = "1";
+    _current_citation_4 = "1";
+    _number_of_citations_1="1";
+    _number_of_citations_2="1";
+    _number_of_citations_3="1";
+    _number_of_citations_4="1";
     _method4next="Aleatoire";
   }
 
@@ -310,14 +337,26 @@ void read_log_data(){
       {
         //Serial.println("Read values from json");
         _code_run_counter_bkp = logjObject["code_run_counter"];
-        _current_citation_bkp = logjObject["current_citation"];
-        _number_of_citations_bkp = logjObject["number_of_citations"];
+        _current_citation_1_bkp = logjObject["current_citation_1"];
+        _current_citation_2_bkp = logjObject["current_citation_2"];
+        _current_citation_3_bkp = logjObject["current_citation_3"];
+        _current_citation_4_bkp = logjObject["current_citation_4"];
+        _number_of_citations_1_bkp = logjObject["number_of_citations_1"];
+        _number_of_citations_2_bkp = logjObject["number_of_citations_2"];
+        _number_of_citations_3_bkp = logjObject["number_of_citations_3"];
+        _number_of_citations_4_bkp = logjObject["number_of_citations_4"];
         _method4next_bkp=logjObject["method4next"];
-        if(_code_run_counter_bkp==NULL || _current_citation_bkp==NULL || _number_of_citations_bkp==NULL|| _method4next_bkp==NULL){
+        if(_code_run_counter_bkp==NULL || _current_citation_1_bkp==NULL || _current_citation_2_bkp==NULL || _current_citation_3_bkp==NULL || _current_citation_4_bkp==NULL || _number_of_citations_1_bkp==NULL|| _number_of_citations_2_bkp==NULL|| _number_of_citations_3_bkp==NULL|| _number_of_citations_4_bkp==NULL|| _method4next_bkp==NULL){
           Serial.println("Error retrieving stored counters - Will reset.");
           _code_run_counter_bkp = "1";
-          _current_citation_bkp = "1";
-          _number_of_citations_bkp="1";
+          _current_citation_1_bkp = "1";
+          _current_citation_2_bkp = "1";
+          _current_citation_3_bkp = "1";
+          _current_citation_4_bkp = "1";
+          _number_of_citations_1_bkp="1";
+          _number_of_citations_2_bkp="1";
+          _number_of_citations_3_bkp="1";
+          _number_of_citations_4_bkp="1";
           _method4next_bkp="Aleatoire";
         }
       }
@@ -326,34 +365,58 @@ void read_log_data(){
   else {
     Serial.println("File /log_bkp.json not found - will initialize");
     _code_run_counter_bkp = "1";
-    _current_citation_bkp = "1";
-    _number_of_citations_bkp="1";
+    _current_citation_1_bkp = "1";
+    _current_citation_2_bkp = "1";
+    _current_citation_3_bkp = "1";
+    _current_citation_4_bkp = "1";
+    _number_of_citations_1_bkp="1";
+    _number_of_citations_2_bkp="1";
+    _number_of_citations_3_bkp="1";
+    _number_of_citations_4_bkp="1";
     _method4next_bkp="Aleatoire";
   }
 
   // Convert counters from char to integer.
   code_run_counter=atoi(_code_run_counter);
-  current_citation=atoi(_current_citation);
-  number_of_citations=atoi(_number_of_citations);
+  current_citation_1=atoi(_current_citation_1);
+  current_citation_2=atoi(_current_citation_2);
+  current_citation_3=atoi(_current_citation_3);
+  current_citation_4=atoi(_current_citation_4);
+  number_of_citations_1=atoi(_number_of_citations_1);
+  number_of_citations_2=atoi(_number_of_citations_2);
+  number_of_citations_3=atoi(_number_of_citations_3);
+  number_of_citations_4=atoi(_number_of_citations_4);
   method4next=_method4next;
   // Repeat for backup from file #2
   code_run_counter_bkp=atoi(_code_run_counter_bkp);
-  current_citation_bkp=atoi(_current_citation_bkp);
-  number_of_citations_bkp=atoi(_number_of_citations_bkp);
+  current_citation_1_bkp=atoi(_current_citation_1_bkp);
+  current_citation_2_bkp=atoi(_current_citation_2_bkp);
+  current_citation_3_bkp=atoi(_current_citation_3_bkp);
+  current_citation_4_bkp=atoi(_current_citation_4_bkp);
+  number_of_citations_1_bkp=atoi(_number_of_citations_1_bkp);
+  number_of_citations_2_bkp=atoi(_number_of_citations_2_bkp);
+  number_of_citations_3_bkp=atoi(_number_of_citations_3_bkp);
+  number_of_citations_4_bkp=atoi(_number_of_citations_4_bkp);
   method4next_bkp=_method4next_bkp;
 
   // Ensure both sets are identical otherwise use biggest values
   code_run_counter=max(code_run_counter,code_run_counter_bkp);
-  current_citation=max(current_citation,current_citation_bkp);
-  number_of_citations=max(number_of_citations,number_of_citations_bkp);
+  current_citation_1=max(current_citation_1,current_citation_1_bkp);
+  current_citation_2=max(current_citation_2,current_citation_2_bkp);
+  current_citation_3=max(current_citation_3,current_citation_3_bkp);
+  current_citation_4=max(current_citation_4,current_citation_4_bkp);
+  number_of_citations_1=max(number_of_citations_1,number_of_citations_1_bkp);
+  number_of_citations_2=max(number_of_citations_2,number_of_citations_2_bkp);
+  number_of_citations_3=max(number_of_citations_3,number_of_citations_3_bkp);
+  number_of_citations_4=max(number_of_citations_4,number_of_citations_4_bkp);
 
-  String logData = "{code_run_counter:"+String(code_run_counter)+", current_citation:"+String(current_citation)+", number_of_citations:"+String(number_of_citations)+", method4next:"+method4next+"}";
+  String logData = "{code_run_counter:"+String(code_run_counter)+", current_citation_1:"+String(current_citation_1)+", current_citation_2:"+String(current_citation_2)+", current_citation_3:"+String(current_citation_3)+", current_citation_4:"+String(current_citation_4)+", number_of_citations_1:"+String(number_of_citations_1)+", number_of_citations_2:"+String(number_of_citations_2)+", number_of_citations_3:"+String(number_of_citations_3)+", number_of_citations_4:"+String(number_of_citations_4)+", method4next:"+method4next+"}";
   Serial.print("Got following log data: "); Serial.println(logData);
 }
 
 // Write counters and setting variables into json datalog
 void update_log_data(){
-  String logData = "{code_run_counter:"+String(code_run_counter)+", current_citation:"+String(current_citation)+", number_of_citations:"+String(number_of_citations)+", method4next:"+method4next+"}";
+  String logData = "{code_run_counter:"+String(code_run_counter)+", current_citation_1:"+String(current_citation_1)+", current_citation_2:"+String(current_citation_2)+", current_citation_3:"+String(current_citation_3)+", current_citation_4:"+String(current_citation_4)+", number_of_citations_1:"+String(number_of_citations_1)+", number_of_citations_2:"+String(number_of_citations_2)+", number_of_citations_3:"+String(number_of_citations_3)+", number_of_citations_4:"+String(number_of_citations_4)+", method4next:"+method4next+"}";
   DynamicJsonBuffer logjBuffer;
   JsonObject& logjObject = logjBuffer.parseObject(logData);
   File logFile = SPIFFS.open("/log.json", "w");
@@ -397,10 +460,28 @@ void ReadDataFile() {
 
     FileRead.close();
     Serial.print("Number of lines in file: "); Serial.println(number_of_lines);
-    if (filename=="citations.txt"){
-      number_of_citations=number_of_lines;
-      Serial.print("Updated number_of_citations: "); Serial.println(number_of_citations);
-      current_citation=1; // Reset current_citation counter
+    if (filename==filename_1){
+      number_of_citations_1=number_of_lines;
+      Serial.print("Updated number_of_citations_1: "); Serial.println(number_of_citations_1);
+      current_citation_1=1; // Reset current_citation counter
+      update_log_data();
+    }
+    if (filename==filename_2){
+      number_of_citations_2=number_of_lines;
+      Serial.print("Updated number_of_citations_2: "); Serial.println(number_of_citations_2);
+      current_citation_2=1; // Reset current_citation counter
+      update_log_data();
+    }
+    if (filename==filename_3){
+      number_of_citations_3=number_of_lines;
+      Serial.print("Updated number_of_citations_3: "); Serial.println(number_of_citations_3);
+      current_citation_3=1; // Reset current_citation counter
+      update_log_data();
+    }
+    if (filename==filename_4){
+      number_of_citations_4=number_of_lines;
+      Serial.print("Updated number_of_citations_4: "); Serial.println(number_of_citations_4);
+      current_citation_4=1; // Reset current_citation counter
       update_log_data();
     }
   }
@@ -501,11 +582,13 @@ void colorWheelFortune(uint32_t target_LED) {
   // Spread color to complete ring
   uint16_t pos=target_LED%strip.numPixels()+strip.numPixels();
   for(uint16_t i=0; i<=strip.numPixels()/2; i++) {
+    time_delay=int(min_delay+max_delay*pow(decay,strip.numPixels()/2-i));
     strip.setPixelColor((pos+i)%strip.numPixels(), Wheel((((pos)%strip.numPixels() * 256 / strip.numPixels())) & 255));
     strip.setPixelColor((pos-i)%strip.numPixels(), Wheel((((pos)%strip.numPixels() * 256 / strip.numPixels())) & 255));
     strip.show();
-    delay(20);
+    delay(time_delay);
   }
+
 }
 
 // Set all LEDs to the same color, one after the other, with a visible delay.
@@ -674,14 +757,22 @@ void displayInfo(GxEPD2_GFX& display, String current_fw, String current_ip, Stri
 String GetCitation()
 {
   citation="Houston we've got a problem!";  // Default string displayed if code fails to retrieve expected text.
-  File myDataFile = SPIFFS.open(current_filename, "r");              // Open the file again, this time for reading
+  char char_filepath[50];  // Char array to store filepath - max 50 chars
+  String filepath;  // String to store filepath
+  filepath="/data/" + filename;
+  filepath.toCharArray(char_filepath,filepath.length()+1);
+  File myDataFile = SPIFFS.open(char_filepath, "r");              // Open the file again, this time for reading
   if (!myDataFile) Serial.println("file open failed");  // Check for errors
   int entry=0;
 
+if (filename==filename_1){current_citation=current_citation_1; number_of_citations=number_of_citations_1;}
+if (filename==filename_2){current_citation=current_citation_2; number_of_citations=number_of_citations_2;}
+if (filename==filename_3){current_citation=current_citation_3; number_of_citations=number_of_citations_3;}
+if (filename==filename_4){current_citation=current_citation_4; number_of_citations=number_of_citations_4;}
 if (method4next=="Sequentiel"){target_citation=current_citation%number_of_citations;}
 else {
   target_citation=random(0, number_of_citations-1);
-  current_citation=target_citation;
+  current_citation_1=target_citation;
 }
 
   Serial.print("target_citation: ");Serial.println(target_citation);
@@ -737,7 +828,16 @@ void setup()
   strip.begin();
   strip.setBrightness(LOW_BRIGHTNESS);
   //colorTransientWipe(strip.Color(0, 0, 255));
-  colorWheelFortune(int(random(20,400)));
+
+  random_pickup=int(random(60,400));
+  colorWheelFortune(random_pickup);
+
+  Serial.print("random_pickup: "); Serial.println(random_pickup);
+  if ((random_pickup/12)%4==0){filename=filename_1;}
+  if ((random_pickup/12)%4==1){filename=filename_2;}
+  if ((random_pickup/12)%4==2){filename=filename_3;}
+  if ((random_pickup/12)%4==3){filename=filename_4;}
+  Serial.println(filename);
   delay(2000);
 
   Serial.println("(2) Setup SPIFFS file system.");
@@ -747,17 +847,21 @@ void setup()
       Serial.println("Content of SPIFFS memory:");
       Dir dir = SPIFFS.openDir("/");
       while (dir.next()) {
-        String fileName = dir.fileName();
-        if (fileName=="/data/citations.txt"){citations_file_exists=true;}
+        String filepath = dir.fileName();
+        //if (dir.fileName()=="/data/citations.txt"){citations_file_exists=true;}
+        if (dir.fileName()=="/data/"+filename_1){citations_file_1_exists=true;}
+        if (dir.fileName()=="/data/"+filename_2){citations_file_2_exists=true;}
+        if (dir.fileName()=="/data/"+filename_3){citations_file_3_exists=true;}
+        if (dir.fileName()=="/data/"+filename_4){citations_file_4_exists=true;}
         size_t fileSize = dir.fileSize();
-        Serial.printf(" FS File: %s, size: %s\n", fileName.c_str(), formatBytes(fileSize).c_str());
-        if (fileName=="/log.json" && fileSize<50){
+        Serial.printf(" FS File: %s, size: %s\n", filepath.c_str(), formatBytes(fileSize).c_str());
+        if (dir.fileName()=="/log.json" && fileSize<50){
           Serial.println("Found a suspicious log.json file because it is too small - Will delete.");
           SPIFFS.remove("/log.json");
           Serial.println("Now removed!");
         }
         // Now repeat with backup file
-        if (fileName=="/log_bkp.json" && fileSize<50){
+        if (dir.fileName()=="/log_bkp.json" && fileSize<50){
           Serial.println("Found a suspicious log_bkp.json file because it is too small - Will delete.");
           SPIFFS.remove("/log_bkp.json");
           Serial.println("Now removed!");
@@ -798,9 +902,24 @@ void setup()
   Serial.println("(5) Read and update execution counters from SPIFFS.");
   read_log_data();
 
-  if ((number_of_citations==1)&(citations_file_exists)){ // If _number_of_citations is not red fron log file and citations.txt file exists then read it to update number of citations counter
+  if ((number_of_citations_1==1)&(citations_file_1_exists)){ // If _number_of_citations is not red fron log file and citations.txt file exists then read it to update number of citations counter
     colorTransientWipe(strip.Color(255, 255, 0));
-    filename="citations.txt";
+    filename=filename_1;
+    ReadDataFile();
+  }
+  if ((number_of_citations_2==1)&(citations_file_2_exists)){ // If _number_of_citations is not red fron log file and citations.txt file exists then read it to update number of citations counter
+    colorTransientWipe(strip.Color(255, 255, 0));
+    filename=filename_2;
+    ReadDataFile();
+  }
+  if ((number_of_citations_3==1)&(citations_file_3_exists)){ // If _number_of_citations is not red fron log file and citations.txt file exists then read it to update number of citations counter
+    colorTransientWipe(strip.Color(255, 255, 0));
+    filename=filename_3;
+    ReadDataFile();
+  }
+  if ((number_of_citations_4==1)&(citations_file_4_exists)){ // If _number_of_citations is not red fron log file and citations.txt file exists then read it to update number of citations counter
+    colorTransientWipe(strip.Color(255, 255, 0));
+    filename=filename_4;
     ReadDataFile();
   }
 
@@ -842,8 +961,8 @@ void setup()
       if (server.uri() != "/update") return;
       HTTPUpload& upload = server.upload();
       if (upload.status == UPLOAD_FILE_START) {
-        //filename = upload.filename;
-        filename="citations.txt";
+        filename = upload.filename;
+        //filename="citations.txt";
         Serial.print("Upload Name: "); Serial.println(filename);
         UploadFile = SPIFFS.open("/data/" + filename, "w");
         //UploadFile = SPIFFS.open("/data/citations.txt", "w");
@@ -874,7 +993,7 @@ void setup()
     //delay(1000);
     //drawTargetBitmap400x300(display1,0);
     //delay(1000);
-    displayInfo(display1,fw_version,current_ip,current_ssid,code_run_counter, current_citation,number_of_citations, batteryVoltage);
+    displayInfo(display1,fw_version,current_ip,current_ssid,code_run_counter, current_citation_1,number_of_citations_1, batteryVoltage);
   }
 
   Serial.println("Setup done.");
@@ -902,7 +1021,7 @@ void loop()
       GetCitation();
       citation=formatMessage(citation);  // Modify message to avoid breaking words at end of number_of_lines
       attempts=attempts+1;
-      current_citation=current_citation+1;
+      current_citation_1=current_citation_1+1;
     }
 
     print_string(display1,citation);
