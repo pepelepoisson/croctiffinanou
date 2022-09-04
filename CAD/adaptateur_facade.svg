@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 1602.0004 1602"
+   version="1.2"
+   width="160.20004mm"
+   height="160.2mm"
+   id="svg522"
+   sodipodi:docname="adaptateur_facade.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata526">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>FreeCAD SVG Export</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     id="namedview524"
+     showgrid="false"
+     inkscape:measure-start="903.786,409.743"
+     inkscape:measure-end="929.307,418.523"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:zoom="0.5"
+     inkscape:cx="667.91851"
+     inkscape:cy="190.73935"
+     inkscape:window-x="1987"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Page001" />
+  <title
+     id="title2">FreeCAD SVG Export</title>
+  <desc
+     id="desc4">Drawing page: Page001 exported from FreeCAD document: Croc_Tiffinanou_V7</desc>
+  <defs
+     id="defs6" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="TechDraw"
+     id="Page001"
+     transform="translate(-5031.3217,-2984.0876)">
+    <g
+       aria-label=" RÉFLÉCHIR"
+       transform="matrix(2.6458333,0,0,2.6458333,5554.801,3163.3637)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3623-56" />
+    <g
+       id="g1636">
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g34"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -552.681,939.402 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path32"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g38"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -647.313,775.495 c 0,12.427 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path36"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g42"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 747.5,498.05 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path40"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g46"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -254.945,1167.86 c 0,12.43 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.07 -22.5,-22.5 0,-12.42 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.08 22.5,22.5"
+           id="path44"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g50"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -696.298,403.419 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.073 22.5,22.5"
+           id="path48"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g54"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 722.796,310.406 c 0,12.427 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path52"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g58"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -677.796,685.694 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path56"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g62"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -647.313,220.605 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.073 22.5,22.5"
+           id="path60"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g66"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 535.152,1010.7 c 0,12.43 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.07 -22.5,-22.5 0,-12.424 10.074,-22.498 22.5,-22.498 12.427,0 22.5,10.074 22.5,22.498"
+           id="path64"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g70"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 117.131,1216.85 c 0,12.42 -10.073,22.5 -22.4995,22.5 -12.4264,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.0736,-22.5 22.5,-22.5 12.4265,0 22.4995,10.07 22.4995,22.5"
+           id="path68"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g74"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -72.1315,1216.85 c 0,12.42 -10.0736,22.5 -22.5,22.5 -12.4265,0 -22.4995,-10.08 -22.4995,-22.5 0,-12.43 10.073,-22.5 22.4995,-22.5 12.4264,0 22.5,10.07 22.5,22.5"
+           id="path72"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g78"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -340,1125.92 c 0,12.42 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path76"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g82"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 741.298,403.419 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path80"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g86"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -605.368,135.55 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path84"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g90"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 22.5,1223.05 c 0,12.43 -10.0736,22.5 -22.5,22.5 -12.4264,0 -22.5,-10.07 -22.5,-22.5 0,-12.43 10.0736,-22.5 22.5,-22.5 12.4264,0 22.5,10.07 22.5,22.5"
+           id="path88"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g94"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 741.298,592.681 c 0,12.427 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path92"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g98"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 650.368,860.55 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path96"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g102"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -254.945,-171.763 c 0,12.427 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path100"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g106"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -490.152,-14.6024 c 0,12.42639 -10.074,22.49998 -22.5,22.49998 -12.427,0 -22.5,-10.07359 -22.5,-22.49998 0,-12.4264 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.0736 22.5,22.5"
+           id="path104"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g110"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -552.681,56.698 c 0,12.4264 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.0736 -22.5,-22.5 0,-12.4264 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.0736 22.5,22.5"
+           id="path108"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g114"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -72.1315,-220.748 c 0,12.427 -10.0736,22.5 -22.5,22.5 -12.4265,0 -22.4995,-10.073 -22.4995,-22.5 0,-12.426 10.073,-22.5 22.4995,-22.5 12.4264,0 22.5,10.074 22.5,22.5"
+           id="path112"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g118"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 535.152,-14.6024 c 0,12.42639 -10.073,22.49998 -22.5,22.49998 -12.426,0 -22.5,-10.07359 -22.5,-22.49998 0,-12.4264 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.0736 22.5,22.5"
+           id="path116"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g122"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 385,-129.818 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path120"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g126"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 22.5,-226.95 c 0,12.426 -10.0736,22.5 -22.5,22.5 -12.4264,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.0736,-22.5 22.5,-22.5 12.4264,0 22.5,10.074 22.5,22.5"
+           id="path124"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g130"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 210.144,-202.246 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path128"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g134"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 597.681,56.698 c 0,12.4264 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.0736 -22.5,-22.5 0,-12.4264 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.0736 22.5,22.5"
+           id="path132"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g138"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 299.945,-171.763 c 0,12.427 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path136"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g142"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 117.131,-220.748 c 0,12.427 -10.073,22.5 -22.4995,22.5 -12.4264,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.0736,-22.5 22.5,-22.5 12.4265,0 22.4995,10.074 22.4995,22.5"
+           id="path140"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g146"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -696.298,592.681 c 0,12.427 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path144"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g150"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 463.852,-77.1312 c 0,12.4264 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.0736 -22.5,-22.5 0,-12.4264 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.0736 22.5,22.5"
+           id="path148"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g154"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -418.852,-77.1312 c 0,12.4264 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.0736 -22.5,-22.5 0,-12.4264 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.0736 22.5,22.5"
+           id="path152"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g158"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 650.368,135.55 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path156"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g162"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -340,-129.818 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path160"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g166"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -165.144,-202.246 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.073 22.5,22.5"
+           id="path164"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g170"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -165.144,1198.35 c 0,12.42 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.07 22.5,22.5"
+           id="path168"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g174"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -702.5,498.05 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path172"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g178"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 299.945,1167.86 c 0,12.43 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.07 -22.5,-22.5 0,-12.42 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.08 22.5,22.5"
+           id="path176"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g182"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 722.796,685.694 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.073 22.5,22.5"
+           id="path180"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g186"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -605.368,860.55 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path184"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g190"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 463.852,1073.23 c 0,12.43 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.07 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path188"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g194"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 385,1125.92 c 0,12.42 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path192"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g198"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 692.313,220.605 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path196"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g202"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 210.144,1198.35 c 0,12.42 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path200"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g206"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -490.152,1010.7 c 0,12.43 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.07 -22.5,-22.5 0,-12.424 10.073,-22.498 22.5,-22.498 12.426,0 22.5,10.074 22.5,22.498"
+           id="path204"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g210"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -677.796,310.406 c 0,12.427 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path208"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g214"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 692.313,775.495 c 0,12.427 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path212"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g218"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m -418.852,1073.23 c 0,12.43 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.07 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path216"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g222"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel">
+        <path
+           d="m 597.681,939.402 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path220"
+           inkscape:connector-curvature="0"
+           style="vector-effect:non-scaling-stroke;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g282"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -254.945,1167.86 c 0,12.43 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.07 -22.5,-22.5 0,-12.42 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.08 22.5,22.5"
+           id="path280"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g286"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -340,1125.92 c 0,12.42 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path284"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g290"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -418.852,1073.23 c 0,12.43 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.07 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path288"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g294"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -490.152,1010.7 c 0,12.43 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.07 -22.5,-22.5 0,-12.424 10.073,-22.498 22.5,-22.498 12.426,0 22.5,10.074 22.5,22.498"
+           id="path292"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g298"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -552.681,939.402 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path296"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g302"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -605.368,860.55 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path300"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g306"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -647.313,775.495 c 0,12.427 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path304"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g310"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -677.796,685.694 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path308"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g314"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -696.298,592.681 c 0,12.427 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path312"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g318"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -702.5,498.05 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path316"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g322"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -696.298,403.419 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.073 22.5,22.5"
+           id="path320"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g326"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -677.796,310.406 c 0,12.427 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path324"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g330"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -647.313,220.605 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.073 22.5,22.5"
+           id="path328"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g334"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -605.368,135.55 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path332"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g338"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -552.681,56.698 c 0,12.4264 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.0736 -22.5,-22.5 0,-12.4264 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.0736 22.5,22.5"
+           id="path336"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g342"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -490.152,-14.6024 c 0,12.42639 -10.074,22.49998 -22.5,22.49998 -12.427,0 -22.5,-10.07359 -22.5,-22.49998 0,-12.4264 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.0736 22.5,22.5"
+           id="path340"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g346"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 535.152,-14.6024 c 0,12.42639 -10.073,22.49998 -22.5,22.49998 -12.426,0 -22.5,-10.07359 -22.5,-22.49998 0,-12.4264 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.0736 22.5,22.5"
+           id="path344"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g350"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 597.681,56.698 c 0,12.4264 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.0736 -22.5,-22.5 0,-12.4264 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.0736 22.5,22.5"
+           id="path348"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g354"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 650.368,135.55 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path352"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g358"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 692.313,220.605 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path356"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g362"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 722.796,310.406 c 0,12.427 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path360"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g366"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 741.298,403.419 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path364"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g370"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 747.5,498.05 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path368"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g374"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 741.298,592.681 c 0,12.427 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path372"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g378"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 722.796,685.694 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.073 22.5,22.5"
+           id="path376"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g382"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 692.313,775.495 c 0,12.427 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path380"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g386"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 650.368,860.55 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path384"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g390"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 597.681,939.402 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path388"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g394"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 535.152,1010.7 c 0,12.43 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.07 -22.5,-22.5 0,-12.424 10.074,-22.498 22.5,-22.498 12.427,0 22.5,10.074 22.5,22.498"
+           id="path392"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g398"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 463.852,1073.23 c 0,12.43 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.07 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path396"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g402"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 385,1125.92 c 0,12.42 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path400"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g406"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 299.945,1167.86 c 0,12.43 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.07 -22.5,-22.5 0,-12.42 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.08 22.5,22.5"
+           id="path404"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g410"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 463.852,-77.1312 c 0,12.4264 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.0736 -22.5,-22.5 0,-12.4264 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.0736 22.5,22.5"
+           id="path408"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g414"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -72.1315,1216.85 c 0,12.42 -10.0736,22.5 -22.5,22.5 -12.4265,0 -22.4995,-10.08 -22.4995,-22.5 0,-12.43 10.073,-22.5 22.4995,-22.5 12.4264,0 22.5,10.07 22.5,22.5"
+           id="path412"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g418"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -165.144,1198.35 c 0,12.42 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.07 22.5,22.5"
+           id="path416"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g422"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -418.852,-77.1312 c 0,12.4264 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.0736 -22.5,-22.5 0,-12.4264 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.0736 22.5,22.5"
+           id="path420"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g426"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -340,-129.818 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path424"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g430"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -254.945,-171.763 c 0,12.427 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.074 22.5,22.5"
+           id="path428"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g434"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -165.144,-202.246 c 0,12.426 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.073 22.5,22.5"
+           id="path432"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g438"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m -72.1315,-220.748 c 0,12.427 -10.0736,22.5 -22.5,22.5 -12.4265,0 -22.4995,-10.073 -22.4995,-22.5 0,-12.426 10.073,-22.5 22.4995,-22.5 12.4264,0 22.5,10.074 22.5,22.5"
+           id="path436"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g442"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 22.5,-226.95 c 0,12.426 -10.0736,22.5 -22.5,22.5 -12.4264,0 -22.5,-10.074 -22.5,-22.5 0,-12.426 10.0736,-22.5 22.5,-22.5 12.4264,0 22.5,10.074 22.5,22.5"
+           id="path440"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g446"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 117.131,-220.748 c 0,12.427 -10.073,22.5 -22.4995,22.5 -12.4264,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.0736,-22.5 22.5,-22.5 12.4265,0 22.4995,10.074 22.4995,22.5"
+           id="path444"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g450"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 210.144,-202.246 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path448"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g454"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 299.945,-171.763 c 0,12.427 -10.073,22.5 -22.5,22.5 -12.426,0 -22.5,-10.073 -22.5,-22.5 0,-12.426 10.074,-22.5 22.5,-22.5 12.427,0 22.5,10.074 22.5,22.5"
+           id="path452"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g458"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 385,-129.818 c 0,12.426 -10.074,22.5 -22.5,22.5 -12.426,0 -22.5,-10.074 -22.5,-22.5 0,-12.427 10.074,-22.5 22.5,-22.5 12.426,0 22.5,10.073 22.5,22.5"
+           id="path456"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g462"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 210.144,1198.35 c 0,12.42 -10.074,22.5 -22.5,22.5 -12.427,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.073,-22.5 22.5,-22.5 12.426,0 22.5,10.07 22.5,22.5"
+           id="path460"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g466"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 117.131,1216.85 c 0,12.42 -10.073,22.5 -22.4995,22.5 -12.4264,0 -22.5,-10.08 -22.5,-22.5 0,-12.43 10.0736,-22.5 22.5,-22.5 12.4265,0 22.4995,10.07 22.4995,22.5"
+           id="path464"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+      <g
+         font-weight="400"
+         transform="rotate(180,2916.161,2141.5688)"
+         font-style="normal"
+         font-size="38.8056"
+         id="g470"
+         style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1">
+        <path
+           d="m 22.5,1223.05 c 0,12.43 -10.0736,22.5 -22.5,22.5 -12.4264,0 -22.5,-10.07 -22.5,-22.5 0,-12.43 10.0736,-22.5 22.5,-22.5 12.4264,0 22.5,10.07 22.5,22.5"
+           id="path468"
+           inkscape:connector-curvature="0"
+           style="vector-effect:none;fill-rule:evenodd" />
+      </g>
+    </g>
+    <g
+       id="g1659"
+       transform="translate(-2756.6997,28.3083)">
+      <g
+         transform="translate(2756.6995,-28.308303)"
+         id="g1442">
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel"
+           id="g30"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:non-scaling-stroke;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path28"
+             d="m -405,813.05 h 810 c 11.046,0 20,-8.954 20,-20 v -590 c 0,-11.046 -8.954,-20 -20,-20 h -810 c -11.046,0 -20,8.954 -20,20 v 590 c 0,11.046 8.954,20 20,20" />
+        </g>
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+           id="g226"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:none;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path224"
+             d="M -405,813.05 H 405" />
+        </g>
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+           id="g230"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:none;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path228"
+             d="m -405,813.05 c -11.046,0 -20,-8.954 -20,-20" />
+        </g>
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+           id="g234"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:none;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path232"
+             d="m 405,813.05 c 11.046,0 20,-8.954 20,-20" />
+        </g>
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+           id="g238"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:none;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path236"
+             d="m -425,203.05 v 590" />
+        </g>
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+           id="g242"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:none;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path240"
+             d="m 425,793.05 v -590" />
+        </g>
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+           id="g246"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:none;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path244"
+             d="m -405,183.05 c -11.046,0 -20,8.954 -20,20" />
+        </g>
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+           id="g250"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:none;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path248"
+             d="m 425,203.05 c 0,-11.046 -8.954,-20 -20,-20" />
+        </g>
+        <g
+           style="font-style:normal;font-weight:400;font-size:38.80559921px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+           id="g254"
+           font-size="38.8056"
+           font-style="normal"
+           transform="rotate(180,2916.161,2141.5688)"
+           font-weight="400">
+          <path
+             style="vector-effect:none;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             id="path252"
+             d="M 405,183.05 H -405" />
+        </g>
+      </g>
+      <path
+         id="path1114"
+         d="m 9239.0215,3756.7793 a 650,650 0 0 1 -650,650 650,650 0 0 1 -650,-650 650,650 0 0 1 650,-650 650,650 0 0 1 650,650 z"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
