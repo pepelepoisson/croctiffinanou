@@ -26,11 +26,13 @@
 #define DATA_PIN    5    // Was 5 for GeaiRareLit
 #define MOSFET_GATE  12
 #define LED_ANIMATIONS_DURATION 300000 // Duration of LED animations (Milliseconds)
+#define SETUP_MAX_DURATION 300000 // Max duration of setup mode
 #define SCREEN_ROTATION 0
 #define NUMBER_FILES 4
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, DATA_PIN, NEO_GRB + NEO_KHZ800);
 uint16_t brightness=LOW_BRIGHTNESS;
+uint8_t base_color_index=0, frame=0;
 long start_time=0;
 int code_run_counter=0;
 int current_citation=0;
@@ -202,7 +204,8 @@ document.addEventListener('DOMContentLoaded', SetDisplayOrderFunction, false);
 )=====";
 
 String filename="citations.txt";
-String filename_1="citations.txt", filename_2="blaques.txt", filename_3="enigmes.txt", filename_4="mots_d_amour.txt";
+//String filename_1="citations.txt", filename_2="blaques.txt", filename_3="enigmes.txt", filename_4="mots_d_amour.txt";
+String filename_3="citations.txt", filename_4="blaques.txt", filename_2="enigmes.txt", filename_1="mots_d_amour.txt";
 ESP8266WebServer server(80);
 //holds the current upload
 File UploadFile;
@@ -514,11 +517,41 @@ void print_string(GxEPD2_GFX& display, String message)
   do
   {
     display.fillScreen(GxEPD_WHITE);
+    //display.drawRoundRect(5, 5, 390, 290, 20, GxEPD_BLACK);
     display.setCursor(0, 10);
     display.println(message);
   }
   while (display.nextPage());
 }
+
+// Print a string and some metrics on the epaper display
+void print_messages(GxEPD2_GFX& display, String message, int code_run_counter, float batteryVoltage)
+{
+  display1.init(115200); // enable diagnostic output on Serial
+  display1.mirror(true); //PP added 420c Z96
+  display.setRotation(SCREEN_ROTATION);// was 1 - PP added 420c Z96
+  display.setFont(&FreeMonoBold9pt7b);
+  //display.setTextColor(GxEPD_BLACK);
+  display.setTextColor(GxEPD_RED);
+  display.setFullWindow();
+  display.firstPage();
+  do
+  {
+    display.fillScreen(GxEPD_WHITE);
+
+    display.setCursor(0, 10);
+    display.println(message);
+    display.drawRoundRect(5, 250, 190, 40, 20, GxEPD_BLACK);
+    display.setCursor(20, 275); display.println("Ex}cutions:"+String(code_run_counter));
+    //display.setCursor(85, 250); display.println(code_run_counter);
+    display.drawRoundRect(210, 250, 180, 40, 20, GxEPD_BLACK);
+    display.setCursor(225, 275); display.println("Batterie:"+String(round(batteryVoltage * 100) / 100.0)+"V");
+    //display.setCursor(285, 250); display.println(batteryVoltage);
+
+  }
+  while (display.nextPage());
+}
+
 
 // Draw a bitmap image onto epaper
 void drawBitmaps3c400x300(GxEPD2_GFX& display,uint16_t target_image)
@@ -530,8 +563,9 @@ void drawBitmaps3c400x300(GxEPD2_GFX& display,uint16_t target_image)
 
   bitmap_pair bitmap_pairs[] =
   {
-    {Bitmap3c400x300_1_black, Bitmap3c400x300_1_red},
-    {Bitmap3c400x300_2_black, Bitmap3c400x300_2_red}
+    {Bitmap3c400x300_PAPASINVENTEURS_black, Bitmap3c400x300_PAPASINVENTEURS_red},
+    {Bitmap3c400x300_MINAMOTS_black, Bitmap3c400x300_MINAMOTS_red},
+    {Bitmap3c400x300_LOWBAT_black, Bitmap3c400x300_LOWBAT_red}
   };
 
   display.firstPage();
@@ -598,6 +632,17 @@ void colorTransientWipe(uint32_t c) {
     strip.show();
     delay(20);
   }
+}
+
+// Spinning wheel made with two oposite colors
+void colorSpin(uint8_t base_color, uint8_t frame) {
+  uint32_t color_A=Wheel(base_color);
+  uint32_t color_B=Wheel((base_color+128)%255);
+  for(uint16_t i=0; i<strip.numPixels(); i++) {
+    if (((i-1)%12==frame)||(i%12==frame)||((i+1)%12==frame)){strip.setPixelColor(i, color_A);}
+    else {strip.setPixelColor(i, color_B);}
+  }
+  strip.show();
 }
 
 // Set all LEDs to different colors covering a full rainbow.
@@ -769,6 +814,9 @@ if (filename==filename_1){current_citation=current_citation_1; number_of_citatio
 if (filename==filename_2){current_citation=current_citation_2; number_of_citations=number_of_citations_2;}
 if (filename==filename_3){current_citation=current_citation_3; number_of_citations=number_of_citations_3;}
 if (filename==filename_4){current_citation=current_citation_4; number_of_citations=number_of_citations_4;}
+Serial.print("filename: ");Serial.println(filename);
+Serial.print("current_citation: ");Serial.println(current_citation);
+Serial.print("number_of_citations :");Serial.println(number_of_citations);
 if (method4next=="Sequentiel"){target_citation=current_citation%number_of_citations;}
 else {
   target_citation=random(0, number_of_citations-1);
@@ -815,7 +863,6 @@ void setup()
       }
     }
     batteryVoltage=sensorValue/(batteryVoltageCalibration*vbat_counter);
-    Serial.print("Battery voltage: "); Serial.print(batteryVoltage); Serial.println("V");
   }
 
   //SPIFFS.begin();
@@ -824,21 +871,10 @@ void setup()
   // Initialize MOSFET_GATE used to turn LED strip power on/off
   pinMode(MOSFET_GATE, OUTPUT); digitalWrite(MOSFET_GATE, HIGH);
 
-  // Initialize LED strip and set all pixels to BLUE
+  // Initialize LED strip
   strip.begin();
   strip.setBrightness(LOW_BRIGHTNESS);
-  //colorTransientWipe(strip.Color(0, 0, 255));
 
-  random_pickup=int(random(60,400));
-  colorWheelFortune(random_pickup);
-
-  Serial.print("random_pickup: "); Serial.println(random_pickup);
-  if ((random_pickup/12)%4==0){filename=filename_1;}
-  if ((random_pickup/12)%4==1){filename=filename_2;}
-  if ((random_pickup/12)%4==2){filename=filename_3;}
-  if ((random_pickup/12)%4==3){filename=filename_4;}
-  Serial.println(filename);
-  delay(2000);
 
   Serial.println("(2) Setup SPIFFS file system.");
   SPIFFS.begin();
@@ -880,23 +916,15 @@ void setup()
   digitalWrite(RST_PIN, HIGH);
   delay(200);
 
-
-  Serial.println("(4) Display bitmaps if needed.");
-  if ((batteryVoltage<=LowBattWarningLevel)&(batteryVoltage>0.5)&(vbat_counter>=20)){
-    //drawBitmaps3c400x300(display1,0);
-    colorTransientWipe(strip.Color(255, 0, 0));
-    delay(5000);
-    if (batteryVoltage<=LowBattAlarmLevel){
+  Serial.println("(4) Display battery level.");
+  Serial.print("Battery voltage: "); Serial.print(batteryVoltage); Serial.println("V");
+  if ((batteryVoltage>LowBattWarningLevel)&(vbat_counter>=20)){colorTransientWipe(strip.Color(0, 0, 255));}
+  if ((batteryVoltage<=LowBattWarningLevel)&(batteryVoltage>0.5)&(vbat_counter>=20)){colorTransientWipe(strip.Color(255, 255, 0));}
+  if ((batteryVoltage<=LowBattAlarmLevel)&(vbat_counter>=20)){
+      drawBitmaps3c400x300(display1,2);
       display1.powerOff();
       Serial.println("Insufficient battery! Now starting deep sleep.");
       ESP.deepSleep(0);
-    }
-  }
-
-  if (batteryVoltage<=0.5){
-    //drawBitmaps3c400x300(display1,0);
-    colorTransientWipe(strip.Color(0, 255, 0));
-    delay(5000);
   }
 
   Serial.println("(5) Read and update execution counters from SPIFFS.");
@@ -933,7 +961,7 @@ void setup()
 
   // read the analog in value
   sensorValue = analogRead(analogInPin);
-  if (sensorValue>100){
+  if (sensorValue<100){
     SetupMode=true;
     Serial.print("Time up to here: ");Serial.println(millis());
     Serial.println("(5) Setup Wifi.");
@@ -989,11 +1017,17 @@ void setup()
 
     server.begin();
     Serial.println("Webserver running");
-    //drawTargetBitmap400x300(display1,2);
-    //delay(1000);
-    //drawTargetBitmap400x300(display1,0);
-    //delay(1000);
     displayInfo(display1,fw_version,current_ip,current_ssid,code_run_counter, current_citation_1,number_of_citations_1, batteryVoltage);
+    delay(5000);
+    drawBitmaps3c400x300(display1,1);
+    delay(5000);
+    drawBitmaps3c400x300(display1,0);
+
+    Serial.println("(TEST) Setup LED strip again.");
+    pinMode(MOSFET_GATE, OUTPUT); digitalWrite(MOSFET_GATE, HIGH);
+    strip.begin();
+    strip.setBrightness(LOW_BRIGHTNESS);
+    LED("deco");
   }
 
   Serial.println("Setup done.");
@@ -1003,14 +1037,36 @@ void setup()
 
 void loop()
 {
-  LED("deco");
+  //LED("deco");
+  base_color_index=(base_color_index+1)%255;
+  frame=(frame+1)%12;
+  colorSpin(base_color_index, frame);
+  delay(100);
+
+  // Read sensorValue to find-out if door is open
+  sensorValue = analogRead(analogInPin);
+
 
   if (SetupMode==true){
     server.handleClient();
     delay(1);
+    if (millis()-start_time>SETUP_MAX_DURATION){SetupMode=false;}
   }
 
-  if ((millis()-start_time>LED_ANIMATIONS_DURATION)||!SetupMode){
+  if (SetupMode==false&((millis()-start_time>LED_ANIMATIONS_DURATION)||sensorValue<100)){
+    Serial.print("sensorValue: ");Serial.println(sensorValue);
+    random_pickup=int(random(60,400));
+    colorWheelFortune(random_pickup);
+
+    Serial.print("random_pickup: "); Serial.println(random_pickup);
+    if ((random_pickup/12)%4==0){filename=filename_1;}
+    if ((random_pickup/12)%4==1){filename=filename_2;}
+    if ((random_pickup/12)%4==2){filename=filename_3;}
+    if ((random_pickup/12)%4==3){filename=filename_4;}
+    Serial.println(filename);
+
+
+
     LED("off");
     delay(50);
 
@@ -1024,12 +1080,22 @@ void loop()
       current_citation_1=current_citation_1+1;
     }
 
-    print_string(display1,citation);
+    //print_string(display1,citation);
     code_run_counter=code_run_counter+1;
+    print_messages(display1,citation,code_run_counter, batteryVoltage);
     update_log_data();
     delay(500);
 
     display1.powerOff();
+
+    Serial.println("(TEST) Setup LED strip again.");
+    pinMode(MOSFET_GATE, OUTPUT); digitalWrite(MOSFET_GATE, HIGH);
+    strip.begin();
+    strip.setBrightness(LOW_BRIGHTNESS);
+    LED("deco");
+    delay(5000);
+    LED("off");
+
     Serial.println("Job done! Now starting deep sleep.");
     ESP.deepSleep(0);
   }
